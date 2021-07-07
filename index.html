@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MTM1526 -  Form Validation</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Form Validation using javascript">
+    <meta name="keywords" content="form validation, javascript, form">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font-->
+    <link rel="stylesheet" type="text/css" href="fonts/helvetica/font-stylesheet.css">  
+
+    <!-- Customized Style Sheet-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <main>  
+        <form id="form-assignment" name="form-assignment" class="form-wrapper" method="POST">
+            <h1>Form Assignment</h1>
+            <section class="name-email-wrapper">
+                <section>
+                    <label class="field-label" for="full-name"  value="">Full Name</label><br />
+                    <input type="text" id="full-name" name="full-name" value=""/><br />
+                </section>
+
+                <section>
+                    <label class="field-label" for="email">Email</label><br />
+                    <input type="text" id="email" name="email" value=""/><br />
+                </section>
+            </section>
+
+            <section>
+                <label class="field-label" for="message">Message</label><br />
+                <textarea name="message" id="message" rows=5></textarea>
+            </section>
+            <input type="submit" name="send-form-data" id="send-form-data"/>
+        </form>    
+    </main>
+    <script src="js/main.js"></script>    
+</body>
+</html>

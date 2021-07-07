@@ -16,19 +16,20 @@ main{
     margin: 5rem auto;
     font-family: 'Helvetica', sans-serif;
     font-size: 1rem;
+    max-width: 100%;
 }
 
 .form-wrapper{
     margin: 0 auto;
     width: 90%;
     padding: 4rem 2rem;
-    border: 1px solid #DDD;
+    border: 0.06rem solid #DDD;
     position: relative;
     background-color: #F5F5F5;
 }
 
 h1{
-    border: 1px solid #DDD;
+    border: 0.06rem solid #DDD;
     padding: 0.5rem;
     width:fit-content;
     position: absolute;
